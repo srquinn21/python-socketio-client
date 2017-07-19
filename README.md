@@ -1,6 +1,3 @@
-Autobahn-Python Websocket Client to Socketio Server Test
---------------------------------------------------------
-
 ## Setup
 We need python:
 
