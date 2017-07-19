@@ -25,8 +25,8 @@ $ nvm use 6
 We need python deps
 
 ```
-$ virtualenv client
-$ . ./client/bin/activate
+$ virtualenv python_modules
+$ . ./python_modules/bin/activate
 $ pip install autobahn twisted
 ```
 

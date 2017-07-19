@@ -14,10 +14,9 @@ app.get('/ping', (req, res) => {
 
 io.set('transports', ['websocket']);
 io.on('connection', socket => {
-  socket.on('message', message => {
-    console.log(message);
-    socket.send(message);
-  });
+  setInterval(() => {
+    socket.send('Hello World!');
+  }, 1000);
 });
 
 server.listen(PORT, () => {
