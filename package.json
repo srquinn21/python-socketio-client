@@ -1,0 +1,16 @@
+{
+  "name": "python-websocket-client-test",
+  "version": "1.0.0",
+  "description": "Testing a python websocket implementation against socketio",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Sean R. Quinn",
+  "license": "UNLICENSED"
+}
